@@ -18,7 +18,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  created_hash = {key => value}
+  hash = {key => value}
   # return a hash that includes the key and value parameters passed into this method
 end
 
@@ -33,7 +33,7 @@ def update_counting_hash(hash, key)
  else
    hash[key]
  end
- return hash
+ hash
 end
 
 
